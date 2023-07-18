@@ -1,2 +1,2 @@
 # html-css
- Estudos sobre GIT
+ Estudos sobre GIT, estou aprendendo a criar sites e a gerenciar repositorios
