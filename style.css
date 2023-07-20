@@ -1,0 +1,29 @@
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ab;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+header{
+    background-color: var(--cor4);
+}
+
+header > h1{
+    color: white;
+}
+
+nav{
+    background-color: var(--cor5);
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+}

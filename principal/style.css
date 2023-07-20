@@ -1,0 +1,102 @@
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    min-width: 320;
+    max-width: 800;
+}
+
+main img{
+    width: 100%;
+}
+
+div.video{
+    background-color: blueviolet;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main > p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
+main h2{
+    color: white;
+    background-image: linear-gradient(to right, purple,transparent);
+    text-indent: 8px;
+}
+
+main strong{
+    color: purple;
+    font-weight: bold;
+    background-color: pink;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 30px;
+}
+
+header > h1{
+    color: purple;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+header > p{
+    color: blueviolet;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: purple;
+    transition-duration: 1s;
+}
+
